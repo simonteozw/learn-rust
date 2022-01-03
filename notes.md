@@ -1,3 +1,4 @@
 - let variables by default can only be assigned a value when declared
 - ! means calling a rust macro
 - a reference is created by & and dereferenced by *
+- & in rust is read as borrow
