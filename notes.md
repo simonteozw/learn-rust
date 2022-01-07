@@ -2,3 +2,8 @@
 - ! means calling a rust macro
 - a reference is created by & and dereferenced by *
 - & in rust is read as borrow
+- strings in rust can be of 2 types, slice string or allocated string
+- slice string = &str (eg. s = "hello")
+- allocated string = String (eg. t = s.to_string())
+- relationship between slice and allocated string is similat to relationship between array and vector
+- borrow operator can coerce String into &str
